@@ -55,6 +55,6 @@ class TwitterBot:
                 
             time.sleep(2)
 
-tb = TwitterBot('WordlEN_', 'Barajas28042')
+tb = TwitterBot(usuario, contrasena) # introducir contraseña y usuario
 tb.login()
 tb.like_tweet("wordle")
